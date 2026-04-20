@@ -13,8 +13,8 @@ window.PORTFOLIO = {
     },
 
     files: {
-        resumePdf: "../assets/ResumeAN.pdf",
-        profilePdf: "../assets/Profile.pdf",
+        resumePdf: "assets/ResumeAN.pdf",
+        profilePdf: "assets/Profile.pdf",
     },
 
     links: [
