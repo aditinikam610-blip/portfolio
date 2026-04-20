@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="description" content="Aditi Nikam — Computer Engineering student and web developer. Projects, skills, experience, and contact.">
+    <meta property="og:title" content="Aditi Nikam | Portfolio">
+    <meta property="og:description" content="Computer Engineering student & web developer. Projects, skills, experience, and contact.">
+    <meta property="og:type" content="website">
+    <!-- <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%237c3aed'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Arial' font-size='28' font-weight='700' fill='white'%3EAN%3C/text%3E%3C/svg%3E"> -->
+    <title>Aditi Nikam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Go to top">
+            <span class="brand-mark" aria-hidden="true">AN</span>
+            <span class="brand-text">Aditi Nikam</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <button class="icon-btn" type="button" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+                <span class="icon" aria-hidden="true">☾</span>
+            </button>
+            <a class="btn btn-primary" id="resumeBtn" href="assets/ResumeAN.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+    </nav>
+</header>
+
+<main id="main">
+    <!-- Hero -->
+    <section class="section hero" aria-label="Intro">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+            <div class="hero-copy reveal">
+                <p class="eyebrow" id="heroEyebrow">Hi, I’m</p>
+                <h1 class="hero-title">
+                    <span class="accent" id="heroName">Aditi Nikam</span>
+                </h1>
+                <p class="hero-subtitle" id="heroTagline">Computer Engineering Student • Web Developer</p>
+                <p class="hero-summary" id="heroSummary">
+                    I build clean, responsive web experiences and love turning ideas into real products.
+                </p>
+
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="#projects">View Projects</a>
+                    <a class="btn btn-ghost" href="#contact">Contact</a>
+                    <!-- <a class="btn btn-soft" id="profileBtn" href="assets/Profile.pdf" target="_blank" rel="noreferrer">Profile</a> -->
+                </div>
+
+                <div class="hero-links" id="quickLinks" aria-label="Quick links"></div>
+            </div>
+
+            <div class="hero-card reveal">
+                <div class="avatar" aria-hidden="true">
+                    <img id="profilePhoto" class="avatar-img" src="assets/profile.jpeg" alt="Aditi Nikam">
+                    <div class="avatar-inner">AN</div>
+                </div>
+                <div class="hero-metrics" id="statsGrid" aria-label="Highlights"></div>
+                <div class="hero-meta" id="heroMeta"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>About</h2>
+                <p class="muted" id="aboutLead">A quick snapshot of who I am and what I enjoy building.</p>
+            </div>
+            <div class="grid-2">
+                <div class="card reveal">
+                    <h3 class="card-title">What I do</h3>
+                    <p id="aboutBody">
+                        I’m a B.Tech Computer Engineering student with a strong academic record and a practical, product-focused mindset.
+                        I enjoy Java & web development, software engineering, and building solutions that are clean, reliable, and user-friendly.
+                    </p>
+                    <ul class="checklist" id="aboutBullets"></ul>
+                </div>
+                <div class="card reveal">
+                    <h3 class="card-title">Strengths</h3>
+                    <div class="pill-row" id="strengths"></div>
+                    <div class="note">
+                        <span class="dot" aria-hidden="true"></span>
+                        <span class="muted" id="availability">Open to internships & placement opportunities.</span>
+                    </div>
+                    <div class="btn-row">
+                        <a class="btn btn-soft" href="#skills">Explore Skills</a>
+                        <a class="btn btn-ghost" href="#experience">View Experience</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Skills</h2>
+                <p class="muted">A focused toolkit for building and shipping.</p>
+            </div>
+            <div class="skills-grid" id="skillsGrid" aria-label="Skills groups"></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Projects</h2>
+                <p class="muted">Selected work with a bias toward real-world problem solving.</p>
+            </div>
+
+            <div class="filters reveal" aria-label="Project filters">
+                <button class="chip is-active" type="button" data-filter="all">All</button>
+                <button class="chip" type="button" data-filter="web">Web</button>
+                <button class="chip" type="button" data-filter="maps">Maps</button>
+                <button class="chip" type="button" data-filter="ml">ML</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid" aria-label="Project list"></div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Experience</h2>
+                <p class="muted">Leadership, clubs, and hands-on building.</p>
+            </div>
+            <div class="timeline" id="timeline" aria-label="Experience timeline"></div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Education</h2>
+                <p class="muted">Academic background and coursework.</p>
+            </div>
+            <div class="grid-2">
+                <div class="card reveal" id="educationCard"></div>
+                <div class="card reveal">
+                    <h3 class="card-title">Achievements</h3>
+                    <ul class="list" id="achievements"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Contact</h2>
+                <p class="muted">Want to collaborate or discuss opportunities? Let’s talk.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card reveal">
+                    <h3 class="card-title">Reach me</h3>
+                    <div class="contact-list" id="contactList"></div>
+                    <div class="btn-row">
+                        <button class="btn btn-soft" type="button" id="copyEmail">Copy email</button>
+                        <a class="btn btn-ghost" id="mailBtn" href="#">Email me</a>
+                    </div>
+                    <p class="muted small" id="copyToast" role="status" aria-live="polite"></p>
+                </div>
+
+                <div class="card reveal">
+                    <h3 class="card-title">Quick message</h3>
+                    <form id="contactForm" class="form">
+                        <label class="field">
+                            <span>Name</span>
+                            <input name="name" autocomplete="name" required placeholder="Your name">
+                        </label>
+                        <label class="field">
+                            <span>Email</span>
+                            <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+                        </label>
+                        <label class="field">
+                            <span>Message</span>
+                            <textarea name="message" rows="5" required placeholder="What would you like to build together?"></textarea>
+                        </label>
+                        <button class="btn btn-primary" type="submit">Open Email Draft</button>
+                        <p class="muted small">This form opens your email app using a prefilled draft (no backend needed).</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> <span id="footerName">Aditi Nikam</span>. Built with HTML, CSS & JavaScript.</p>
+        <a class="to-top" href="#top">Back to top</a>
+    </div>
+</footer>
+
+<noscript>
+    <div class="noscript">This site works best with JavaScript enabled.</div>
+</noscript>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
