@@ -173,21 +173,28 @@ function renderExperience() {
 }
 
 function renderEducation() {
-    const edu = data.education;
-
     const card = $("educationCard");
     card.innerHTML = "";
-    card.appendChild(el("h3", "card-title", edu.degree));
-    card.appendChild(el("p", "muted", edu.institute));
-    card.appendChild(el("p", "muted", `${edu.period} • ${edu.score}`));
 
-    const ul = el("ul", "list");
-    edu.details.forEach((d) => ul.appendChild(el("li", "", d)));
-    card.appendChild(ul);
+    data.education.forEach((edu) => {
+        const block = el("div");
+
+        block.appendChild(el("h3", "card-title", edu.degree));
+        block.appendChild(el("p", "muted", edu.institute));
+        block.appendChild(el("p", "muted", `${edu.period} • ${edu.score}`));
+
+        const ul = el("ul", "list");
+        edu.details.forEach((d) => ul.appendChild(el("li", "", d)));
+        block.appendChild(ul);
+
+        card.appendChild(block);
+    });
 
     const achievements = $("achievements");
     achievements.innerHTML = "";
-    data.achievements.forEach((a) => achievements.appendChild(el("li", "", a)));
+    data.achievements.forEach((a) =>
+        achievements.appendChild(el("li", "", a))
+    );
 }
 
 function renderContact() {
