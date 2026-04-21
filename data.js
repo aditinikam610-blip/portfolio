@@ -24,7 +24,7 @@ window.PORTFOLIO = {
 
     stats: [
         { k: "9.35", l: "CGPA" },
-        { k: "3+", l: "Projects" },
+        { k: "4+", l: "Projects" },
         { k: "Java & Web" , l: "Focus" },
         { k: "DSA", l: "Core Skills" },
     ],
@@ -34,17 +34,17 @@ window.PORTFOLIO = {
         body:
             "I’m a B.Tech Computer Engineering student with a strong academic record and a practical mindset. I enjoy web development, software engineering, and shipping projects with a clean UI and solid fundamentals.",
         bullets: [
-            "Comfortable across front-end development and core CS fundamentals (DSA, DBMS, OS).",
+            "Comfortable across front-end development and CS fundamentals (DSA, DBMS, OS).",
             "Builds projects end-to-end: UI, data, and deployment-ready structure.",
             "Clear communication, teamwork, and consistent execution.",
         ],
-        strengths: ["Problem solving", "UI Designing", "Teamwork", "Quick learning"],
+        strengths: ["German A1 level proficiency", "Problem solving", "UI Designing", "Teamwork", "Leadership" ],
     },
 
     skills: [
         {
             group: "Languages",
-            items: ["Java", "Python", "C", "SQL"],
+            items: ["Java", "Python", "C", "SQL", ],
         },
         {
             group: "Web",
@@ -52,7 +52,7 @@ window.PORTFOLIO = {
         },
         {
             group: "Core CS",
-            items: ["DSA", "DBMS", "Operating Systems", "DAA"],
+            items: ["DSA", "DBMS", "Operating Systems", "DAA", "Software Engineering"],
         },
         {
             group: "Tools & Concepts",
@@ -114,16 +114,29 @@ window.PORTFOLIO = {
 
     education: {
         degree: "B.Tech in Computer Engineering",
-        institute: "Your College / University",
-        period: "2022 – 2026",
+        institute: "Rajarambapu Institute of Technology, Rajaramnagar",
+        period: "2022 – 2028",
         score: "CGPA: 9.35",
         details: ["Relevant: DSA, DBMS, OS, Web Development"],
+
+        degree: "HSC (12th Grade)",
+        institute: "Maharaja Sayajirao Junior College, Satara",
+        period: "2022 – 2024",
+        Grade: "88.67%",
+        details: ["Inspired Scholarship Award: Top 1%  School Board  at Class  XII level" , "Science (PCMB)"],
+
+        degree: "SSC (10th Grade)",
+        institute: "KSD Shanbhag Vidyalaya and Junior College, Satara",
+        period: "2010 – 2022",
+        Grade: "97.60%",
+        details: ["State Board", "Academic Excellence", "Football District Level 2nd Prize"],
     },
 
     achievements: [
+        "Science Exhibition Poster Presentation (2024) 2nd Prize",
+        "Hackathon participant and multiple project showcases in college technical events.",
         "Strong academic performance",
         "Built multiple real-world oriented projects.",
         "Active in tech communities and campus initiatives.",
-        "Passionate to participate in tech events and hackathons.",
     ],
 };
