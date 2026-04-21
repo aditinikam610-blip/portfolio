@@ -77,8 +77,23 @@ projects: [
             "Structured for real-time scalability"
         ],
         links: {
-            repo: "https://github.com/aditinikam610-blip/CampusSwap.git"
-            
+            repo: "https://github.com/aditinikam610-blip/CampusSwap.git",
+            demo: "https://campus-swap-six.vercel.app/"
+        },
+    },
+    {
+        title: "Electricity Prediction",
+        category: "ml",
+        desc: "A machine learning project to predict electricity consumption and analyze carbon emissions.",
+        stack: ["Python", "Machine Learning", "Data Analysis"],
+        highlights: [
+            "Predictive modeling for energy usage",
+            "Carbon emission analysis",
+            "Insight-driven reporting"
+        ],
+        links: {
+            repo: "https://github.com/aditinikam610-blip/ML.git",
+            demo: "https://ediypyomuvgfryn7wndulh.streamlit.app/"
         },
     },
     {
@@ -96,20 +111,6 @@ projects: [
         },
     },
     {
-        title: "Electricity Prediction",
-        category: "ml",
-        desc: "A machine learning project to predict electricity consumption and analyze carbon emissions.",
-        stack: ["Python", "Machine Learning", "Data Analysis"],
-        highlights: [
-            "Predictive modeling for energy usage",
-            "Carbon emission analysis",
-            "Insight-driven reporting"
-        ],
-        links: {
-            repo: "https://github.com/aditinikam610-blip/ML.git"
-        },
-    },
-    {
         title: "Rajarambapu Bazar",
         category: "web",
         desc: "A web-based digital supermarket platform that allows users to browse and shop products in a structured, store-like interface.",
@@ -120,7 +121,8 @@ projects: [
             "Responsive design across devices"
         ],
         links: {
-            repo: "https://github.com/aditinikam610-blip/Rajarambapu-Bazar.git"
+            repo: "https://github.com/aditinikam610-blip/Rajarambapu-Bazar.git",
+            demo: "https://rajarambapu-bazar.vercel.app/"
         },
     },
     {
@@ -163,7 +165,8 @@ projects: [
             "Demonstrates core DAA concepts"
         ],
         links: {
-            repo: "https://github.com/aditinikam610-blip/N-Queen-Visualization.git"
+            repo: "https://github.com/aditinikam610-blip/N-Queen-Visualization.git",
+            demo: "https://n-queen-visualization-xi.vercel.app/"
         },
     },
 ],
