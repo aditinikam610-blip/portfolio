@@ -2,7 +2,7 @@ window.PORTFOLIO = {
     person: {
         name: "Aditi Nikam",
         role: "Computer Engineering Student",
-        tagline: "Web Developer • Problem Solver • Fast Learner",
+        tagline: "Java Enthusiast",
         summary:
             "B.Tech Computer Engineering student (CGPA 9.35) passionate about building clean, responsive web experiences and real-world solutions.",
         location: "India (IST)",
@@ -38,7 +38,7 @@ window.PORTFOLIO = {
             "Builds projects end-to-end: UI, data, and deployment-ready structure.",
             "Clear communication, teamwork, and consistent execution.",
         ],
-        strengths: ["Problem solving", "Clean UI", "Teamwork", "Quick learning"],
+        strengths: ["Problem solving", "UI Designing", "Teamwork", "Quick learning"],
     },
 
     skills: [
@@ -56,7 +56,7 @@ window.PORTFOLIO = {
         },
         {
             group: "Tools & Concepts",
-            items: ["Git/GitHub", "Firebase (basic)", "Intellij IDEA", "VS Code"],
+            items: ["Git/GitHub", "Firebase (basic)", "Intellij IDEA", "VS Code","Figma"],
         },
         {
             group: "Communication",

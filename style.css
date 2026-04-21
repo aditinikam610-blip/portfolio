@@ -9,15 +9,15 @@
     --muted-2: rgba(255, 255, 255, 0.55);
     --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
 
-    --accent: #7c3aed;
-    --accent-2: #22d3ee;
-    --accent-3: #a3ff6f;
+    --accent: #0EA5E9;
+    --accent-2: #0EA5E9;
+    --accent-3: #0EA5E9;
 
     --radius: 16px;
     --radius-sm: 12px;
     --container: 1120px;
 
-    --focus: 0 0 0 3px rgba(34, 211, 238, 0.35);
+    --focus: 0 0 0 3px rgba(14, 165, 233, 0.35);
 
     --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
         "Segoe UI Emoji";
@@ -54,9 +54,9 @@ body {
     font-family: var(--font);
     color: var(--text);
     background:
-        radial-gradient(1200px 600px at 18% 12%, rgba(124, 58, 237, 0.26), transparent 55%),
-        radial-gradient(900px 500px at 80% 18%, rgba(34, 211, 238, 0.18), transparent 55%),
-        radial-gradient(900px 550px at 40% 85%, rgba(163, 255, 111, 0.08), transparent 55%),
+        radial-gradient(1200px 600px at 18% 12%, rgba(14, 165, 233, 0.26), transparent 55%),
+        radial-gradient(900px 500px at 80% 18%, rgba(14, 165, 233, 0.18), transparent 55%),
+        radial-gradient(900px 550px at 40% 85%, rgba(14, 165, 233, 0.08), transparent 55%),
         linear-gradient(180deg, var(--bg), var(--bg2));
     min-height: 100vh;
 }
@@ -186,7 +186,7 @@ html[data-theme="light"] .site-header {
     display: grid;
     place-items: center;
     border-radius: 12px;
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.85), rgba(34, 211, 238, 0.7));
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.9), rgba(14, 165, 233, 0.7));
     border: 1px solid rgba(255, 255, 255, 0.18);
     color: white;
     font-weight: 800;
@@ -216,7 +216,7 @@ html[data-theme="light"] .site-header {
 
 .nav-link.is-active {
     color: var(--text);
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.26), rgba(34, 211, 238, 0.14));
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.26), rgba(14, 165, 233, 0.14));
     border: 1px solid rgba(255, 255, 255, 0.10);
 }
 
@@ -303,7 +303,7 @@ html[data-theme="light"] .site-header {
 
 .btn-primary {
     color: white;
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.95), rgba(34, 211, 238, 0.75));
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.95), rgba(14, 165, 233, 0.75));
     border-color: rgba(255, 255, 255, 0.14);
 }
 
@@ -336,8 +336,8 @@ html[data-theme="light"] .site-header {
     position: absolute;
     inset: -40%;
     background:
-        radial-gradient(closest-side at 50% 48%, rgba(124, 58, 237, 0.24), transparent 52%),
-        radial-gradient(closest-side at 62% 42%, rgba(34, 211, 238, 0.16), transparent 50%);
+        radial-gradient(closest-side at 50% 48%, rgba(14, 165, 233, 0.24), transparent 52%),
+        radial-gradient(closest-side at 62% 42%, rgba(14, 165, 233, 0.16), transparent 50%);
     filter: blur(10px);
     pointer-events: none;
 }
@@ -367,7 +367,7 @@ html[data-theme="light"] .site-header {
 }
 
 .accent {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 1), rgba(34, 211, 238, 0.92));
+    background: linear-gradient(135deg, rgba(14, 165, 233, 1), rgba(14, 165, 233, 0.92));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -435,11 +435,11 @@ html[data-theme="light"] .site-header {
     justify-content: center;
 
     /* 🔥 gradient border effect */
-    background: linear-gradient(135deg, #7c3aed, #22d3ee);
+    background: linear-gradient(135deg, #0EA5E9, #0EA5E9);
     padding: 4px;
 
     /* glow */
-    box-shadow: 0 0 25px rgba(34, 211, 238, 0.5);
+    box-shadow: 0 0 25px rgba(14, 165, 233, 0.5);
 }
 
 .avatar-inner {
@@ -510,9 +510,9 @@ html[data-theme="light"] .site-header {
     display: grid;
     place-items: center;
     border-radius: 6px;
-    background: rgba(34, 211, 238, 0.14);
-    border: 1px solid rgba(34, 211, 238, 0.24);
-    color: rgba(34, 211, 238, 1);
+    background: rgba(14, 165, 233, 0.14);
+    border: 1px solid rgba(14, 165, 233, 0.24);
+    color: rgba(14, 165, 233, 1);
     font-weight: 900;
     margin-top: 2px;
 }
@@ -549,8 +549,8 @@ html[data-theme="light"] .site-header {
     width: 10px;
     height: 10px;
     border-radius: 999px;
-    background: rgba(163, 255, 111, 0.7);
-    box-shadow: 0 0 0 3px rgba(163, 255, 111, 0.14);
+    background: rgba(14, 165, 233, 0.7);
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.14);
 }
 
 .skills-grid {
@@ -606,7 +606,7 @@ html[data-theme="light"] .site-header {
 }
 
 .chip.is-active {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.35), rgba(34, 211, 238, 0.18));
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.35), rgba(14, 165, 233, 0.18));
     color: var(--text);
     border-color: rgba(255, 255, 255, 0.14);
 }
@@ -691,8 +691,8 @@ html[data-theme="light"] .site-header {
     width: 10px;
     height: 10px;
     border-radius: 999px;
-    background: rgba(34, 211, 238, 0.8);
-    box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.14);
+    background: rgba(14, 165, 233, 0.8);
+    box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.14);
 }
 
 .timeline-card h3 {
@@ -722,7 +722,7 @@ html[data-theme="light"] .site-header {
     position: absolute;
     left: 0;
     top: 0;
-    color: rgba(34, 211, 238, 0.85);
+    color: rgba(14, 165, 233, 0.85);
 }
 
 .contact-list {
