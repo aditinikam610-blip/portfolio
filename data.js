@@ -1,7 +1,7 @@
 window.PORTFOLIO = {
     person: {
         name: "Aditi Nikam",
-        role: "Computer Engineering Student",
+        role: " Second Year BTech Computer Engineering Student",
         tagline: "Java Enthusiast",
         summary:
             "B.Tech Computer Engineering student (CGPA 9.35) passionate about building clean, responsive web experiences and real-world solutions.",
